@@ -50,3 +50,9 @@ body {
   justify-content: space-around;
   align-items: flex-start;
 }
+
+@media (max-width: 480px) {
+  .section .sub-sections {
+    display: grid;
+  }
+}
